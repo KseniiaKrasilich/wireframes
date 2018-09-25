@@ -1,0 +1,45 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  column-gap: 1em;
+  row-gap: 1em;
+
+}
+.one{
+
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-color: blue;
+height: 100px;
+}
+.two{
+
+  background-color: red;
+  height: 100vh;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.three{
+  
+  background-color: Yellow;
+  height: 100vh;
+  grid-column-start: 4;
+  grid-column-end: 10;
+}
+.four{
+  background-color: green;
+  height: 100vh;
+  grid-column-start: 10;
+  grid-column-end: 13;
+}
+.five{
+  grid-column-start: 1;
+  grid-column-end: 13;
+  background-color: blue;
+height: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
